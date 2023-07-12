@@ -18,10 +18,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
+
         pickerView.delegate = self
-                pickerView.dataSource = self
+        pickerView.dataSource = self
     }
 
     func updateTotalPrice() {
