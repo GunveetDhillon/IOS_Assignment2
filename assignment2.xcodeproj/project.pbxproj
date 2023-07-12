@@ -16,6 +16,9 @@
 		FBA132252A5A715A0025F834 /* assignment2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA132242A5A715A0025F834 /* assignment2Tests.swift */; };
 		FBA1322F2A5A715A0025F834 /* assignment2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1322E2A5A715A0025F834 /* assignment2UITests.swift */; };
 		FBA132312A5A715A0025F834 /* assignment2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA132302A5A715A0025F834 /* assignment2UITestsLaunchTests.swift */; };
+		FBA1323E2A5A74C00025F834 /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1323D2A5A74C00025F834 /* ManagerViewController.swift */; };
+		FBA132402A5A76410025F834 /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1323F2A5A76410025F834 /* ResetViewController.swift */; };
+		FBA132422A5A91530025F834 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA132412A5A91530025F834 /* HistoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FBA1322A2A5A715A0025F834 /* assignment2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA1322E2A5A715A0025F834 /* assignment2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment2UITests.swift; sourceTree = "<group>"; };
 		FBA132302A5A715A0025F834 /* assignment2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBA1323D2A5A74C00025F834 /* ManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerViewController.swift; sourceTree = "<group>"; };
+		FBA1323F2A5A76410025F834 /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		FBA132412A5A91530025F834 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				FBA1320F2A5A71590025F834 /* SceneDelegate.swift */,
 				FBA132112A5A71590025F834 /* ViewController.swift */,
 				FBA132132A5A71590025F834 /* Main.storyboard */,
+				FBA132412A5A91530025F834 /* HistoryTableViewController.swift */,
+				FBA1323F2A5A76410025F834 /* ResetViewController.swift */,
+				FBA1323D2A5A74C00025F834 /* ManagerViewController.swift */,
 				FBA132162A5A715A0025F834 /* Assets.xcassets */,
 				FBA132182A5A715A0025F834 /* LaunchScreen.storyboard */,
 				FBA1321B2A5A715A0025F834 /* Info.plist */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA1323E2A5A74C00025F834 /* ManagerViewController.swift in Sources */,
 				FBA132122A5A71590025F834 /* ViewController.swift in Sources */,
+				FBA132422A5A91530025F834 /* HistoryTableViewController.swift in Sources */,
 				FBA1320E2A5A71590025F834 /* AppDelegate.swift in Sources */,
 				FBA132102A5A71590025F834 /* SceneDelegate.swift in Sources */,
+				FBA132402A5A76410025F834 /* ResetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
